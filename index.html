@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzorino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        #navbar {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         font-family: 'Montserrat', sans-serif;
+       }
+       .navbar {
+        display: inline;
+        float: left;
+       }
+       .navbar a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+       }
+
+     /* Change the link color to #111 (black) on hover */
+        li a:hover {
+         background-color: #111;
+        }
+        h1, h2, h3, p {
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            width: 500px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            background-color: brown;
+        }
+        #img1 {
+            width: 500px;
+            border-radius: 2%;
+            padding-left: 3%;
+        }
+        #img2 {
+            width: 500px;
+            border-radius: 2%;
+            padding-left: 3%
+        }
+        body {
+            background-image: url(https://i.pinimg.com/564x/e9/9d/48/e99d48b31a190cb63bbda55d89a1b740.jpg);
+        }
+        #menu {
+            width: 80%;
+            background-color: burlywood;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+ <div id="menu">
+    <header>
+    <h1>Welcome to Pizzorino</h1>
+    <nav>
+        <ul id="navbar">
+            <li class="navbar"><a href="default.asp">Home</a></li>
+            <li class="navbar"><a href="contact.asp">Contact</a></li>
+            <li class="navbar"><a href="about.asp">About</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+    <p>So you are a Pizza fan ? , well then you came to the right place 
+        where you will find all sorts of pizza recipes , 
+        you can even choose your toppings . 
+    </p>
+    <img id="img1" src="imgs/img1.jpg" alt="pizza image">
+    </section>
+
+    <section>
+    <h2><strong>Come Spend Your Money Here!</strong></h2>
+    <p>Yep , you're spending money anyways so we highly recommend to spend it
+        on good food because one thing we are sure about is that you will go
+        out of our restaurant happy thanks to our high quality ingredient that 
+        will shook your taste buds . 
+        we have our own family recipe since 1999 , literally no one can do 
+        like us since it's a top secret recipe . 
+    </p>
+    <img id="img2" src="imgs/img2.jpg" alt="legend">
+    <h3>Our Pizzas</h3>
+    <ul>
+        <li>Hawaiian Pizza</li>
+        <li>Cheese Pizza</li>
+        <li>Pepperoni Pizza</li>
+        <li>Margherita Pizza</li>
+        <li>Meat Pizza</li>
+        <li>BBQ Chicken Pizza</li>
+    </ul>
+    </section>
+
+    <footer>
+        <p>© Copyright 2077. All rights reserved</p>
+        <p>Pizzorino</p>
+        <p>Social Media:
+            instagram: Pizzorino_
+            facebook: Pizzorino_
+            Twitter: urfavpizzorino
+            phone number: 0721083230
+        </p>
+    </footer>
+ </div>
+</body>
+</html>
